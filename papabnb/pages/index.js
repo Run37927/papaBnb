@@ -13,7 +13,7 @@ export default function Home({ exploreData, cardsData }) {
   return (
     <div>
       <Head>
-        <title>VEGAN SAUSAGE</title>
+        <title>VEGAN SAUSAGES</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
