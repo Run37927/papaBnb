@@ -5,6 +5,8 @@ import { useRouter } from 'next/router'
 import { format } from 'date-fns'
 import InfoCard from '../components/InfoCard'
 import { nanoid } from 'nanoid'
+import MapSection from '../components/MapSection'
+
 
 function Search({ searchResults }) {
     console.log(searchResults);
@@ -46,6 +48,10 @@ function Search({ searchResults }) {
                             />
                         ))}
                     </div>
+                </section>
+
+                <section className='hidden xl:inline-flex xl:min-w-[600px]'>
+                    <MapSection searchResults={searchResults} />
                 </section>
             </main>
 
